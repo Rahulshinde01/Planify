@@ -23,7 +23,7 @@ const [done, setDone] = useState("Mark as Done")
           <button type="button" className="text-gray-900 hover:text-white border border-gray-700 hover:bg-gray-700 focus:ring-2 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-xs px-2 py-1 text-center mt-1 w-24" onClick= {()=>{setDone("Completed")}}>{done}</button>
 
           </div>
-            <div className="relative pt-1 left-36 bottom-6">
+            <div className="relative pt-1 left-32 md:left-36 bottom-6">
               <MdDelete className="cursor-pointer" onClick={deleteTask}/>
             </div>
           </div>

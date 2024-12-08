@@ -24,7 +24,7 @@ function App() {
     <NavBar></NavBar>
 
 
-    <div className="sm:flex">
+    <div className="w-11/12 mx-auto my-8 flex flex-col gap-8 md:flex-row md:gap-4 md:justify-between lg:w-4/5">
       <LeftCard addTasks={addTasks}></LeftCard>
       <RightCard tasks = {tasks} onDelete = {deleteTask}></RightCard>
 
